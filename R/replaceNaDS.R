@@ -18,7 +18,7 @@
 replaceNaDS <- function(xvect, replacements){
   
   # check if the input vector is valid (i.e. meets DataSHIELD criteria)
-  check <- length(xvect) > 0 & length(xvect) < 5
+  check <- isValidDS(xvect)
   
   # get the indices of the missing values
   indx <- which(is.na(xvect))
