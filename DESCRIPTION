@@ -4,7 +4,7 @@ Author: <datashield@obiba.org>
 Version: 1.0.0
 License: GPL-3
 Title: DataSHIELD server side functions for my first package
-Description: DataSHIELD client side functions
+Description: DataSHIELD server side functions
 AggregateMethods: meanDS,
     length=base::length
 AssignMethods: replaceNaDS,
